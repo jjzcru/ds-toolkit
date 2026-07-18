@@ -8,7 +8,7 @@
     "test": "vp test",
     "lint": "vp lint",
     "check": "vp check",
-    "test:ui": "vp test --ui"
+    "test:ui": "vp test --ui --watch"
   },
   "devDependencies": {
     "@vitest/ui": "^4.1.10",
