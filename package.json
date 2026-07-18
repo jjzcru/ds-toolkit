@@ -7,9 +7,11 @@
     "build": "vp build",
     "test": "vp test",
     "lint": "vp lint",
-    "check": "vp check"
+    "check": "vp check",
+    "test:ui": "vp test --ui"
   },
   "devDependencies": {
+    "@vitest/ui": "^4.1.10",
     "typescript": "^5.8.3",
     "vite-plus": "^0.2.5"
   },
