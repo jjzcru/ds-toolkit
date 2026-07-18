@@ -1,0 +1,26 @@
+{
+  "name": "ds-toolkit",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vp build",
+    "test": "vp test",
+    "lint": "vp lint",
+    "check": "vp check"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite-plus": "^0.2.5"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "11.12.0",
+      "onFail": "download"
+    }
+  },
+  "volta": {
+    "node": "24.18.0"
+  }
+}
